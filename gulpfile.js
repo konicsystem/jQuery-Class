@@ -61,7 +61,7 @@ gulp.task('build', ['build:css', 'build:rjs']);
  * TASK
  * --------------------------------
  */
-// CSS 병합
+// CSS 병합test
 gulp.task('css', function() {
 	gulp.src( [DIR + 'css/style.css', '!' + DIR + 'css/out/*.css'] )
 		.pipe( concatCss('all.css') )
